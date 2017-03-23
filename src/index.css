@@ -1,0 +1,19 @@
+.myPanel{
+    margin:10px;
+    border: 1px solid #232;
+    box-shadow: 3px 3px 5px #ccc;
+    -webkit-border-radius: 5px;
+}
+body{
+    background-image: url("bg.jpg");
+}
+.myPanel .heading{
+    background: #485;
+    padding: 5px 5px;
+    color: #232;
+    border: 2px solid #232;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+.myPanel .body{
+    padding: 5px 2px;
+}
