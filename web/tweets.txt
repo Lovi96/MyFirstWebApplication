@@ -1,8 +1,4 @@
 user:
-Lovi || 2017-03-24 22:41:23.57
+Lovi || 2017-03-26 16:24:42.341
 feedback:
-Ã¡rvÃ­ztÅ±rÅ‘ tÃ¼kÃ¶rfÃºrÃ³gÃ©p
-user:
-Ãkos || 2017-03-24 22:42:46.87
-feedback:
-de, eleg fasza!
+árvíztûrõ tükörfúrógép

@@ -4,6 +4,13 @@
     box-shadow: 3px 3px 5px #ccc;
     -webkit-border-radius: 5px;
 }
+#bannerHeader{
+    background: url('banner.png');
+    background-size: 100% 100%;
+    margin:0;
+    position:static;
+    top:0;
+}
 
 .bg {
     background: url('clouds.jpg');
@@ -15,8 +22,24 @@
     z-index: -1;
 }
 
+.panel-bodyPara{
+    visibility: hidden;
+}
+.panel-bodyPara:hover{
+    visibility: visible;
+}
+
 .bgDef {
     background-image: url("clouds.jpg");
+}
+
+#wellColor{
+    background: rgba(150,180,255,0.55);
+    border: 1px solid rgba(150,180,255,0.55);
+}
+#bannerWell{
+    background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.10);
 }
 
 .containerColor {
