@@ -1,19 +1,60 @@
-.myPanel{
-    margin:10px;
+.myPanel {
+    margin: 10px;
     border: 1px solid #232;
     box-shadow: 3px 3px 5px #ccc;
     -webkit-border-radius: 5px;
 }
-body{
-    background-image: url("bg.jpg");
+
+.bg {
+    background: url('clouds.jpg');
+    position: fixed;
+    width: 100%;
+    height: 300%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
 }
-.myPanel .heading{
+
+.bgDef {
+    background-image: url("clouds.jpg");
+}
+
+.containerColor {
+    background: rgba(160, 200, 200, 0.40);
+}
+
+.panelHover:hover {
+    background: rgba(160, 200, 200, 0.40);
+    border: 1px solid rgba(160, 200, 200, 0.40);
+    transform: translateY(-30px) scale(1.1, 1.1);
+    box-shadow: 3px 3px 3px #3f3f3f;
+    transition: all 500ms ease-out;
+}
+
+.panelHover {
+    transform: translateY(30px) scale(1, 1);
+    transition: all 500ms ease;
+}
+
+.menuItemCustom:hover {
+    background: #000000;
+    transition: background 500ms ease;
+}
+
+.scrolling {
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.myPanel .heading {
     background: #485;
     padding: 5px 5px;
     color: #232;
     border: 2px solid #232;
     -webkit-border-radius: 5px 5px 5px 5px;
 }
-.myPanel .body{
+
+.myPanel .body {
     padding: 5px 2px;
 }
